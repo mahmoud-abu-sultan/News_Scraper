@@ -21,6 +21,7 @@ function Single(props) {
           Next <i className="icon-chevron-right"></i>
         </span>
       </Link>
+
       <div className="container-fluid">
         <div className="row fh5co-post-entry single-entry">
           <article className="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
@@ -28,7 +29,7 @@ function Single(props) {
               <img src={single_1} alt="phot" className="img-responsive" />
             </figure>
             <span className="fh5co-meta animate-box">
-              <Link to="/CategorieNews">{props.categori}</Link>
+              <Link to="/MainCategorieNews">{props.categori}</Link>
             </span>
             <h2 className="fh5co-article-title animate-box">
               My First Time Traveling in Vietnam

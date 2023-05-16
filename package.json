@@ -20,6 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "author": "MAHMOUD.T",
   "eslintConfig": {
     "extends": [
       "react-app",

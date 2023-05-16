@@ -16,7 +16,7 @@ function Header() {
           <figure>
             <img
               src={person_1}
-              alt="Magazine TM Scraping"
+              alt="GoalSports News: Scraping"
               className="img-responsive"
             />
           </figure>
@@ -47,22 +47,25 @@ function Header() {
 
         <div className="fh5co-menu">
           <div className="fh5co-box">
-            <h3 className="heading">Categories</h3>
+            <h3 className="heading">Main Categories</h3>
             <ul>
               <li>
-                <Link to="/CategorieNews">Travel</Link>
+                <Link to="/MainCategorieNews">Football</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Style</Link>
+                <Link to="/MainCategorieNews">Tennis</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Photography</Link>
+                <Link to="/MainCategorieNews">Basketball</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Food &amp; Drinks</Link>
+                <Link to="/MainCategorieNews">Cricket</Link>
               </li>
               <li>
-                <Link to="/CategorieNews">Culture</Link>
+                <Link to="/MainCategorieNews">Motorsports</Link>
+              </li>
+              <li>
+                <Link to="/MainCategorieNews">NBA</Link>
               </li>
             </ul>
           </div>
@@ -108,7 +111,7 @@ function Header() {
             <div className="col-lg-12 col-md-12 text-center">
               <h1 id="fh5co-logo">
                 <Link to="/">
-                  Magazine <sup>TM</sup>
+                  GoalSports <sup>News</sup>
                 </Link>
               </h1>
             </div>

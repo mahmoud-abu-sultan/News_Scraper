@@ -10,7 +10,7 @@ function Card(props) {
         </Link>
       </figure>
       <span className="fh5co-meta">
-        <Link to="/CategorieNews">{props.categoris}</Link>
+        <Link to="/MainCategorieNews">{props.categoris}</Link>
       </span>
       <h2 className="fh5co-article-title" style={props.style}>
         {props.articleTitle}
